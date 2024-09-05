@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cdci-test-dep
+  namespace: exercises
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cdci-test
+  template:
+    metadata:
+      labels:
+        app: cdci-test
+    spec:
+      containers:
+      - name: cdci-test
+        image: CDCI-TEST/IMAGE
+        env:
+        - name: PORT
+          value: "3000"

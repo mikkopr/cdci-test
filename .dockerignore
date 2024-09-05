@@ -1,0 +1,6 @@
+DOCKERFILE
+.git
+.gitignore
+/node_modules
+/manifests
+kustomization.yaml
