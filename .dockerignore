@@ -3,4 +3,5 @@ DOCKERFILE
 .gitignore
 /node_modules
 /manifests
+/.github
 kustomization.yaml
