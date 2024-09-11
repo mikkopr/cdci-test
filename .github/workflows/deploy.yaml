@@ -22,8 +22,8 @@ jobs:
 
       - name: Build and Publish Image
         run: |-
-          docker build . --tag "mikkopr/cdci-test:$GITHUB_SHA"
-          docker push "mikkopr/cdci-test:$GITHUB_SHA"
+          docker build . --tag "mdoci/cdci-test:$GITHUB_SHA"
+          docker push "mdoci/cdci-test:$GITHUB_SHA"
       
       # Update kustomization.yaml
       - name: Set up Kustomize
