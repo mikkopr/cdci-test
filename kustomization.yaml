@@ -6,4 +6,4 @@ resources:
 images:
 - name: CDCI-TEST/IMAGE
   newName: mdoci/cdci-test
-  newTag: b032aa3ba8be874feaa077908a3d043d6b72ab3c
+  newTag: 52fa6573596ad59ffede5919c40f1701b1ec38b5
