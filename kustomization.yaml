@@ -5,5 +5,5 @@ resources:
 - manifests/service.yaml
 images:
 - name: CDCI-TEST/IMAGE
-  newName: mikkopr/cdci-test
+  newName: mdoci/cdci-test
   newTag: b032aa3ba8be874feaa077908a3d043d6b72ab3c
